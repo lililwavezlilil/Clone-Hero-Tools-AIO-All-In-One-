@@ -6,6 +6,35 @@ Clone Hero Tools AIO (All-In-One) is a packaged GUI version of all of my Clone H
 
 Because this background service uses PyInstaller to package the local Python environment into a single executable, strict antivirus programs (such as Windows Defender) may occasionally flag it as a generic threat. This is a common false positive associated with compiled Python scripts.
 
+### **Instructions:**
+
+1. Just run and enjoy! :) (instructions and details can be found by pressing the Help? button in the top right corner under the version number)
+
+On the initial run, you will be prompted to select your Clone Hero songs directory (you can change this anytime by doing any of the following 3 options:
+
+**• OPTION A (RECOMMENDED):**
+Press the Change Directory button at the top
+
+**• OPTION B:**
+On the RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL webpage by clicking Change Local Folder in the bottom right corner
+
+**• OPTION C:**
+By editing the CH_Settings.txt file with Notepad)
+
+##### *(Example: C:\Games\Clone Hero\Songs)*
+
+**Recommended Flow Path for best results:**
+
+##### *1. Clone Hero Midi 2 Chart.exe -> 2. Clone Hero No Part Deleter.exe -> 3. Clone Hero Difficulty Creator.exe -> 4. **(Optional)** Clone Hero Chart 2 Midi.exe*
+
+You can run Clone Hero Universal Song Matcher.exe either before or after loading the RhythmVerse, CHORUS ENCORE, and CUSTOM SONGS CENTRAL webpage(s)—it will sync either way! :D
+
+### **All EXE files can be found on my GitHub here:**
+
+https://github.com/lililwavezlilil
+
+
+
 <img width="3840" height="2160" alt="Screenshot (549)" src="https://github.com/user-attachments/assets/05d18101-e35a-4e7a-9b7b-a4bafafb7158" />
 <img width="3840" height="2160" alt="Screenshot (550)" src="https://github.com/user-attachments/assets/9f53e0a1-b45b-4d33-9846-49cebf140a35" />
 <img width="3840" height="2160" alt="Screenshot (551)" src="https://github.com/user-attachments/assets/e02dc150-2311-425e-8f6b-7ee29c5edfe4" />
