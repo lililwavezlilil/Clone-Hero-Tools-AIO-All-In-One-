@@ -1,2 +1,1 @@
-# Clone-Hero-Tools-AIO-All-In-One-
-Clone Hero Tools AIO (All-In-One) is a packaged GUI version of all 5 of my Clone Hero scripts/programs combined into 1
+# **Clone Hero Tools AIO (All-In-One)** <sup><sup>*(v1.0)*</sup></sup>
