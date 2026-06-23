@@ -38,7 +38,7 @@ On the initial run, you will be prompted to select your Clone Hero songs directo
 Press the Change Directory button at the top
 
 **• OPTION B:**
-On the RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL webpage by clicking Change Local Folder in the bottom right corner
+On the RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL webpage by clicking Change Local Folder in the bottom right corner (Clone Hero Universal Song Matcher **MUST** be running first!)
 
 **• OPTION C:**
 By editing the CH_Settings.txt file with Notepad
