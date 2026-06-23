@@ -25,9 +25,9 @@ By editing the CH_Settings.txt file with Notepad
 
 **Recommended Flow Path for best results:**
 
-##### *1. Clone Hero Midi 2 Chart.exe -> 2. Clone Hero No Part Deleter.exe -> 3. Clone Hero Difficulty Creator.exe -> 4. **(Optional)** Clone Hero Chart 2 Midi.exe*
+##### *1. Clone Hero Midi 2 Chart -> 2. Clone Hero No Part Deleter -> 3. Clone Hero Difficulty Creator -> 4. **(Optional)** Clone Hero Chart 2 Midi*
 
-You can run Clone Hero Universal Song Matcher.exe either before or after loading the RhythmVerse, CHORUS ENCORE, and CUSTOM SONGS CENTRAL webpage(s)—it will sync either way! :D
+You can run Clone Hero Universal Song Matcher either before or after loading the RhythmVerse, CHORUS ENCORE, and CUSTOM SONGS CENTRAL webpage(s)—it will sync either way! :D
 
 ### **All EXE files can be found on my GitHub here:**
 
