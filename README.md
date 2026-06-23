@@ -2,13 +2,31 @@
 
 Clone Hero Tools AIO (All-In-One) is a packaged GUI version of all of my Clone Hero scripts/programs combined into 1
 
+## ***NOTE:***
+
+*Clone Hero Tools AIO (All-In-One) will **ALWAYS** have/run the newest and most up to date version of each script. The changelog will **ONLY** contain updates and changes made to the GUI all in one script and anything added to the compile/build!*
+
 ## ***⚠️ Security Notice:*** *Antivirus False Positives*
 
 Because this background service uses PyInstaller to package the local Python environment into a single executable, strict antivirus programs (such as Windows Defender) may occasionally flag it as a generic threat. This is a common false positive associated with compiled Python scripts.
 
 ### **Instructions:**
 
-1. Just run and enjoy! :) (instructions and details can be found by pressing the Help? button in the top right corner under the version number)
+1. Open your browser(s) of choice and add/install the extension Tampermonkey by Jan Biniok
+
+2. Open my extensions/installed extensions in your browser(s) and locate Tampermonkey
+
+3. Click on details and make sure you enable Allow User Scripts
+
+4. Add my custom Tampermonkey script:
+
+**• OPTION A (Recommended):**
+Go to (https://greasyfork.org/en/scripts/582682-clone-hero-universal-song-matcher) and click on Install this script. 
+
+**• OPTION B (Manual Install):**
+Open Tampermonkey.txt (can be opened in the Help? option and/or by downloading the Tampermonkey.txt) and copy everything inside, then click on the Tampermonkey extension in your browser(s) and click Create a new script. Paste everything inside and save
+
+6. Run and enjoy! :) (instructions and details can be found by pressing the Help? button in the top right corner under the version number or by visiting that specific Github repository)
 
 On the initial run, you will be prompted to select your Clone Hero songs directory (you can change this anytime by doing any of the following 3 options:
 
@@ -33,7 +51,73 @@ You can run Clone Hero Universal Song Matcher either before or after loading the
 
 https://github.com/lililwavezlilil
 
+## **Features & Functionality:**
 
+### **Clone Hero Universal Song Matcher:**
+
+• Labels and highlights tracks that you already have/own in green
+
+• Labels tracks that you do not have in red (Terminal window only)
+
+• Labels and highlights tracks that you download/are extracting in yellow
+
+• Updates tracks that you downloaded and extracted to your Clone Hero songs folder as added to library/owned highlighted in green
+
+• Lists all songs in a 1:1 mirror image to the current RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL webpage
+
+• Allows loading more songs/scrolling, search filters, and refreshing of RhythmVerse, CHORUS ENCORE, and CUSTOM SONGS CENTRAL following perfectly along
+
+• Removes the songs from the associated webpage in the terminal window whenever RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL is closed
+
+##### 🟢 **Green:** *Highlights tracks you already own in your library*
+
+##### 🟡 **Yellow:** *Highlights tracks currently downloading or extracting*
+
+##### 🔴 **Red:** *Labels tracks you do not currently have (visible in the Terminal window only)*
+
+### **Clone Hero Midi 2 Chart:**
+
+• Searches through your Clone Hero songs folder/directory for any .mid/midi file(s) and automatically converts all of them to a notes.chart file
+
+• Sends the .mid/midi file(s) to the Recycling Bin for easy recovery
+
+• When converted, the notes.chart file(s) are automatically placed in the same folder the .mid/midi file(s) were converted from
+
+• When converted, the notes.chart file(s) retain the exact same Guitar, Bass, Rhythm, Keys, Star Power, etc. chart from the .mid/midi file(s)
+
+### **Clone Hero No Part Deleter:**
+
+• Searches through your Clone Hero songs folder/directory for any songs *(notes.chart)* that have no Guitar, Bass, Rhythm, or Keys charted and deletes them
+
+• When deleted, the songs *(notes.chart)* file(s) are NOT sent to the Recycling Bin, they are **PERMANENTLY** deleted
+
+### **Clone Hero Difficulty Creator:**
+
+• Searches through your Clone Hero songs folder/directory for any songs *(notes.chart)* file missing any charted difficulties other than Expert *(Easy, Medium, Hard)* and charts them
+
+• Uses the Expert chart to accurately chart the lower difficulties with proper spacing and note placement while retaining accurate note types *(Normal, Taps, HOPOS, Forced, etc.)*
+
+• Copies the Star Power exact position(s) from the Expert chart to the lower difficulties
+
+• **DOES NOT** overwrite any difficulty that has already been charted
+
+• Creates a notes.chart.bak file in the same folder for each notes.chart file that receives a missing difficulty or difficulties
+
+• Follows strict/authentic charting for Medium and Easy difficulties:
+
+##### *(**NO** orange notes for Medium and Easy)*
+
+##### *(**NO** blue notes for Easy)*
+
+### **Clone Hero Chart 2 Midi:**
+
+• Searches through your Clone Hero songs folder/directory for any notes.chart file(s) and automatically converts all of them to a .mid/midi file
+
+• Sends the notes.chart file(s) to the Recycling Bin for easy recovery
+
+• When converted, the .mid/midi file(s) are automatically placed in the same folder the notes.chart file(s) were converted from
+
+• When converted, the .mid/midi file(s) retain the exact same Guitar, Bass, Rhythm, Keys, Star Power, etc. chart from the notes.chart file(s)
 
 <img width="3840" height="2160" alt="Screenshot (549)" src="https://github.com/user-attachments/assets/05d18101-e35a-4e7a-9b7b-a4bafafb7158" />
 <img width="3840" height="2160" alt="Screenshot (550)" src="https://github.com/user-attachments/assets/9f53e0a1-b45b-4d33-9846-49cebf140a35" />
