@@ -32,7 +32,7 @@ Open Tampermonkey.txt (can be opened in the Help? option and/or by downloading t
 
 6. Run and enjoy! :) (instructions and details can be found by pressing the Help? button in the top right corner under the version number or by visiting that specific Github repository)
 
-On the initial run, you will be prompted to select your Clone Hero songs directory (you can change this anytime by doing any of the following 3 options:
+On the initial run, you will be prompted to select your Clone Hero songs directory (you can change this anytime by doing any of the following 3 options):
 
 **• OPTION A (RECOMMENDED):**
 Press the Change Directory button at the top
