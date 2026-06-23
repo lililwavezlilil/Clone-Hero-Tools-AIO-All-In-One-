@@ -45,7 +45,7 @@ By editing the CH_Settings.txt file with Notepad
 
 ##### *(Example: C:\Games\Clone Hero\Songs)*
 
-**IF** you press cancel by mistake or don't choose your Clone Hero songs folder on the intitial run or with 1 of the 3 options, you will also be prompted to select your Clone Hero songs folder when pressing any of the 3 available buttons as a safety net
+**IF** you press cancel by mistake, don't choose your Clone Hero songs folder on the intitial run, or with 1 of the 3 options listed above, you **WILL** also be prompted to select your Clone Hero songs folder when pressing any of the 3 available buttons as a safety net
 
 **Recommended Flow Path for best results:**
 
