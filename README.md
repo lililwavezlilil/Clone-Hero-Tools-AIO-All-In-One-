@@ -2,6 +2,10 @@
 
 Clone Hero Tools AIO (All-In-One) is a packaged GUI version of all of my Clone Hero scripts/programs combined into 1
 
+##### ***PLEASE ALWAYS USE Clone Hero Midi 2 Chart FIRST to UNLOCK Clone Hero No Part Deleter and Clone Hero Difficulty Creator!!!***
+
+***Clone Hero No Part Deleter and Clone Hero Difficulty Creator ONLY work for notes.chart files***
+
 ## ***NOTE:***
 
 *Clone Hero Tools AIO (All-In-One) will **ALWAYS** have/run the newest and most up to date version of each script. The changelog will **ONLY** contain updates and changes made to the GUI all in one script and anything added to the compile/build!*
@@ -41,9 +45,11 @@ By editing the CH_Settings.txt file with Notepad
 
 ##### *(Example: C:\Games\Clone Hero\Songs)*
 
+**IF** you press cancel by mistake or don't choose your Clone Hero songs folder on the intitial run or with 1 of the 3 options, you will also be prompted to select your Clone Hero songs folder when pressing any of the 3 available buttons as a safety net
+
 **Recommended Flow Path for best results:**
 
-##### *1. Clone Hero Midi 2 Chart -> 2. Clone Hero No Part Deleter -> 3. Clone Hero Difficulty Creator -> 4. **(Optional)** Clone Hero Chart 2 Midi*
+##### *1. Clone Hero Midi 2 Chart -> 2. Clone Hero No Part Deleter (LOCKED: Must be UNLOCKED by using Clone Hero Midi 2 Chart first!) -> 3. Clone Hero Difficulty Creator (LOCKED: Must be UNLOCKED by using Clone Hero Midi 2 Chart first!) -> 4. **(Optional)** Clone Hero Chart 2 Midi*
 
 You can run Clone Hero Universal Song Matcher either before or after loading the RhythmVerse, CHORUS ENCORE, and CUSTOM SONGS CENTRAL webpage(s)—it will sync either way! :D
 
