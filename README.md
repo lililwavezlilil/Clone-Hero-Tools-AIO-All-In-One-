@@ -19,7 +19,7 @@ Press the Change Directory button at the top
 On the RhythmVerse, CHORUS ENCORE, or CUSTOM SONGS CENTRAL webpage by clicking Change Local Folder in the bottom right corner
 
 **• OPTION C:**
-By editing the CH_Settings.txt file with Notepad)
+By editing the CH_Settings.txt file with Notepad
 
 ##### *(Example: C:\Games\Clone Hero\Songs)*
 
