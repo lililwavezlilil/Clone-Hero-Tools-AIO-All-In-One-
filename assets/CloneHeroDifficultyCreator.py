@@ -27,12 +27,13 @@ EASY_MOVE_BLUE_ORANGE = True
 # --- RHYTHM SPACING RULES ---
 # Controls the minimum distance allowed between notes. 
 # 2.0 = Allows fast 8th notes. 1.0 = Limits to slower Quarter notes.
-# Tweak these decimals to dial in the perfect density for your charts.
+HARD_SPACING_DIVISOR = 2.0   
 MEDIUM_SPACING_DIVISOR = 1.5  
 EASY_SPACING_DIVISOR = 1.0    
 
 # --- CHORD RULES ---
 # Maximum notes allowed to be played at the exact same time.
+HARD_MAX_CHORDS = 2
 MEDIUM_MAX_CHORDS = 2
 EASY_MAX_CHORDS = 1
 
@@ -148,6 +149,8 @@ def get_downcharted_notes(notes_data, difficulty, resolution):
                         skip_tick = True
                     if difficulty == "Medium" and distance < (resolution / MEDIUM_SPACING_DIVISOR):
                         skip_tick = True
+                    if difficulty == "Hard" and distance < (resolution / HARD_SPACING_DIVISOR):
+                        skip_tick = True
                         
                     if skip_tick:
                         continue 
@@ -164,6 +167,8 @@ def get_downcharted_notes(notes_data, difficulty, resolution):
                     continue 
                 if difficulty == "Medium" and len(accepted_ticks[tick]) >= MEDIUM_MAX_CHORDS:
                     continue 
+                if difficulty == "Hard" and len(accepted_ticks[tick]) >= HARD_MAX_CHORDS:
+                    continue
                     
                 accepted_ticks[tick].append(color)
                 new_lines.append(f"  {tick} = N {color} {length}")
@@ -176,7 +181,7 @@ def get_downcharted_notes(notes_data, difficulty, resolution):
     return '\n'.join(new_lines)
 
 def run():
-    print(f"Clone Hero Difficulty Creator v1.1 initialized...\n")
+    print(f"Clone Hero Difficulty Creator v1.2 initialized...\n")
     
     songs_directory = setup_directory()
     if not songs_directory:
@@ -198,10 +203,10 @@ def run():
                 
                 if has_expert:
                     for instr in has_expert:
-                        # Extract blocks
-                        h_match = re.search(r'(?m)^\[Hard' + instr + r'\][ \t]*\r?\n\{([^}]*)\}', content)
-                        m_match = re.search(r'(?m)^\[Medium' + instr + r'\][ \t]*\r?\n\{([^}]*)\}', content)
-                        e_match = re.search(r'(?m)^\[Easy' + instr + r'\][ \t]*\r?\n\{([^}]*)\}', content)
+                        # Extract blocks (Regex relaxed to catch MIDI converter formatting)
+                        h_match = re.search(r'(?m)^\[Hard' + instr + r'\]\s*\{([^}]*)\}', content)
+                        m_match = re.search(r'(?m)^\[Medium' + instr + r'\]\s*\{([^}]*)\}', content)
+                        e_match = re.search(r'(?m)^\[Easy' + instr + r'\]\s*\{([^}]*)\}', content)
                         
                         # Note checks
                         h_has_notes = h_match and re.search(r'^\s*\d+\s*=\s*N\s+[0-47]', h_match.group(1), re.MULTILINE)
@@ -255,9 +260,10 @@ def run():
             instrument = match.group(1)
             expert_notes = match.group(2)
             
-            h_match = re.search(r'(?m)^\[Hard' + instrument + r'\][ \t]*\r?\n\{([^}]*)\}', content)
-            m_match = re.search(r'(?m)^\[Medium' + instrument + r'\][ \t]*\r?\n\{([^}]*)\}', content)
-            e_match = re.search(r'(?m)^\[Easy' + instrument + r'\][ \t]*\r?\n\{([^}]*)\}', content)
+            # (Regex relaxed to catch MIDI converter formatting)
+            h_match = re.search(r'(?m)^\[Hard' + instrument + r'\]\s*\{([^}]*)\}', content)
+            m_match = re.search(r'(?m)^\[Medium' + instrument + r'\]\s*\{([^}]*)\}', content)
+            e_match = re.search(r'(?m)^\[Easy' + instrument + r'\]\s*\{([^}]*)\}', content)
             
             h_has_notes = h_match and re.search(r'^\s*\d+\s*=\s*N\s+[0-47]', h_match.group(1), re.MULTILINE)
             
